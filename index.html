@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jaja as mirao</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navegaçao -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">Logo</div>
+        <ul class="nav-links">
+          <li><a href="about.html">About Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="presentacion">
+      <h1>Adanai</h1>
+      <p>Composer, Producer, Multi-instrumentalist, Putero</p>
+    </div>
+
+    <!-- seccion musica -->
+    <h2>Music</h2>
+    <section id="music">
+        <div class="music-container">
+          <!-- selector album -->
+          <div class="album-selector">
+            <h3>Albums</h3>
+            <ul class="album-list">
+              <li>
+                <a href="#" onclick="loadAlbum('2141448418', 'img/album1.png')">
+                  <img src="img/album1.png" alt="album1" />
+                </a>
+              </li>
+              <li>
+                <a href="#" onclick="loadAlbum('1349219244', 'img/album2.jpg')">
+                  <img src="img/album2.jpg" alt="album2" />
+                </a>
+              </li>
+              <li>
+                <a href="#" onclick="loadAlbum('2708032815', 'img/album3.png')">
+                  <img src="img/album3.png" alt="album3" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- reproductor -->
+          <div class="music-player">
+                <iframe
+                id="bandcamp-player"
+                style="border: 0; width: 400px; height: 472px"
+                src="https://bandcamp.com/EmbeddedPlayer/album=2141448418/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/"
+                seamless
+                ></iframe>
+          </div>
+        </div>
+      </section>
+    <script src="script.js"></script>
+  </body>
+</html>

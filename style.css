@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+}
+/* Barra de Navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1d62a7;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Presentación */
+.presentacion {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Sección de Música */
+#music {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.music-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* Selector de Álbumes */
+.album-selector {
+    width: 200px; /* Ancho fijo para la lista de álbumes */
+    padding: 20px;
+}
+
+.album-selector img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.album-selector img:hover {
+    transform: scale(1.1);
+}
+.album-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Reproductor de Bandcamp */
+.music-player iframe {
+    border: 0;
+    width: 400px;
+    height: 472px;
+    transition: transform 0.3s ease;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+}
+
+/* About */
+.imagerow {
+    display: flex;              /* Coloca las imágenes en una fila */
+    justify-content: flex-start; /* Alinea las imágenes al principio */
+    gap: 10px;                  /* Espacio entre imágenes */
+    padding: 10px;
+    overflow-x: auto;           /* Permite el desplazamiento horizontal */
+    white-space: nowrap;        /* Asegura que las imágenes no se envuelvan en una nueva línea */
+}
+
+.imagerow img {
+    width: auto;
+    height: 450px;               /* Tamaño fijo de las imágenes */
+    object-fit: cover;          /* Asegura que la imagen cubra su espacio sin deformarse */
+}
