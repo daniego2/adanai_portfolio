@@ -54,19 +54,33 @@ h2 {
 }
 
 .music-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    display: flex;
+    gap: 10px;
     justify-content: center;
-    align-items: center;
+    background-color: pink;
+    padding: 20px;
     
 }
 
 
 /* Selector de Álbumes */
 .album-selector {
-    width: 200px; /* Ancho fijo para la lista de álbumes */
-    padding: 20px;
+    
+    padding: 10px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    top: 0;
+    max-height: 600px;
+    overflow-y: auto;
+}
+.album-selector h3 {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .album-selector img {
@@ -78,7 +92,8 @@ h2 {
 }
 
 .album-selector img:hover {
-    transform: scale(1.1);
+    transform: scale(0.90);
+
 }
 .album-list {
     list-style: none;
@@ -87,13 +102,18 @@ h2 {
 }
 
 /* Reproductor de Bandcamp */
+.music-player {
+
+    background-color: red;
+    display: none;
+    
+}
 .music-player iframe {
-    border: 0;
-    width: 400px;
-    height: 472px;
-    transition: transform 0.3s ease;
+    /*hardcoded width and height!!!!!!*/
+    width: 900px;
+    height: 500px;
     justify-content: center;
-    background-color: black;
+    background-color: blueviolet;
     align-items: center;
 }
 
