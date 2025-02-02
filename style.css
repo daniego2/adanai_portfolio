@@ -58,7 +58,6 @@ h2 {
     display: flex;
     gap: 10px;
     justify-content: center;
-    background-color: pink; 
     padding: 20px;
     
 }
@@ -67,9 +66,7 @@ h2 {
 /* Selector de Álbumes */
 .album-selector {
     justify-content: center;
-    padding: 10px;
     width: 175px;
-    background-color: green; 
     display: flex;
     top: 0;
     max-height: 600px;
@@ -117,6 +114,22 @@ h2 {
     background-color: purple;
 
 }
+/* Description */
+.description-container {
+    display: none; /* Initially hidden */
+    text-align: center;
+    padding: 10px;
+    width: 20%;
+}
+.album-title {
+    text-align: center;
+    padding: 10px;
+}
+
+.album-description{
+    text-align: center;
+    padding: 10px;
+}
 
 /* About */
 .imagerow {
@@ -133,3 +146,4 @@ h2 {
     height: 450px;               /* Tamaño fijo de las imágenes */
     object-fit: cover;          /* Asegura que la imagen cubra su espacio sin deformarse */
 }
+

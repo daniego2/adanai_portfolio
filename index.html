@@ -1,9 +1,20 @@
+<!-- TODO:
+ - Cambiar la resolucion de las fotos y estandarizar el formato
+ - Añadir título y descripcion de cada album
+ - El overflow de los albumes debe tener un degradado o un boton de desplazar abajo
+ - Cambiar el texto y fotos de la seccion about
+ - meter seccion de videos
+ - meter seccion de contacto
+ - meter rrss
+  -->
+
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>jaja as mirao</title>
+    <title>AdanaiMusic</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -18,12 +29,13 @@
     </header>
     <div class="presentacion">
       <h1>Adanai</h1>
-      <p>Composer, Producer, Multi-instrumentalist, Putero</p>
+      <p>Composer, Producer, Multi-instrumentalist</p>
     </div>
 
     <!-- seccion musica -->
     <h2>Music</h2>
     <section id="music">
+
       <div class="music-container">
         <!-- selector album -->
         <div class="album-selector">
@@ -52,6 +64,11 @@
             class ="player"
             seamless>
           </iframe>
+
+        <div id="description-container" class="description-container">
+          <h3 id="album-title" class="album-title"></h3>
+          <p id="album-description" class="album-description"></p>
+        </div>
       </div>
     </section>
     <section id="about">
