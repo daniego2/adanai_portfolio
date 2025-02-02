@@ -1,0 +1,65 @@
+[
+  {
+    "title": "TROM",
+    "id": "3XSRsv7fRTsiLH1RMfhaZZ",
+    "category": "videogames",
+    "image": "img/albums/trom.jpg",
+    "type": "spotify"
+  },
+  {
+    "title": "Frutageddon",
+    "id": "5iNIJR4LGNIVcYiWymKmJx",
+    "category": "videogames",
+    "image": "img/albums/frutageddon.png",
+    "type": "spotify"
+  },
+  {
+    "title": "Little Fairy Dress Up",
+    "id": "4FBHqyRdtfFGzI5Q8SHa4F",
+    "category": "videogames",
+    "image": "img/albums/little_fairy_dress_up.png",
+    "type": "spotify"
+  },
+  {
+      "title": "Princess Dress Up",
+      "id": "7DGuAB7icGU0WYtt2zBX3B",
+      "category": "videogames",
+      "image": "img/albums/princess_dress_up.jpg",
+      "type": "spotify"
+    },
+    {
+      "title": "Model Style Dress Up",
+      "id": "6Pl6TQkJA3OK32ypXrhrEC",
+      "category": "videogames",
+      "image": "img/albums/model_style_dress_up.jpg",
+      "type": "spotify"
+    },
+    {
+      "title": "Indian Princess Dress Up",
+      "id": "4qgw9swuIbBX15tejdkUgC",
+      "category": "videogames",
+      "image": "img/albums/indian_princess_dress_up.png",
+      "type": "spotify"
+    },
+    {
+      "title": "Doll Style: Underground Design and Dress",
+      "id": "7BL9618ctP2iU2YPiVwYKi",
+      "category": "videogames",
+      "image": "img/albums/doll_style_underground_design_and_dress.png",
+      "type": "spotify"
+    },
+    {
+      "title": "Ahora, me toca a mi",
+      "id": "ZC3AtAvHG3s",
+      "category": "audiovisual",
+      "image": "img/albums/ahora_me_toca_a_mi.png",
+      "type": "youtube"
+    },
+    {
+      "title": "Madeon - You're on (feat. Playluist)",
+      "id": "8Mfu9QiaIdw",
+      "category": "audiovisual",
+      "image": "img/albums/you_are_on.png",
+      "type": "youtube"
+    }
+  ]
