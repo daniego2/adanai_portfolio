@@ -59,7 +59,6 @@ h2 {
     gap: 10px;
     justify-content: center;
     padding: 20px;
-    
 }
 
 
@@ -72,6 +71,7 @@ h2 {
     max-height: 600px;
     overflow-y: auto;
     scrollbar-width: none; /*hace la barra de scroll invisible For Firefox */
+    background-color: blueviolet;
 }
 
 .album-selector::-webkit-scrollbar {
@@ -105,21 +105,28 @@ h2 {
 }
 
 /* Reproductor */
-.player{
-    width: auto;
-    height: auto;
+.player-container {
+    position: relative; /* Para posicionar el spinner correctamente */
     display: none;
     justify-content: center;
     align-items: center;
-    background-color: purple;
-
+    overflow: hidden;
+    background-color: yellow;
 }
+
+.player {
+    border: none; /* Elimina el borde del iframe */
+    width: 100%; /* Ajusta el ancho del reproductor */
+    height: 100%; /* Ajusta la altura del reproductor */
+}
+
 /* Description */
 .description-container {
     display: none; /* Initially hidden */
     text-align: center;
     padding: 10px;
     width: 20%;
+    background-color: aquamarine;
 }
 .album-title {
     text-align: center;
@@ -147,3 +154,23 @@ h2 {
     object-fit: cover;          /* Asegura que la imagen cubra su espacio sin deformarse */
 }
 
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #1d62a7; /* Color del spinner */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
