@@ -47,32 +47,28 @@ h2 {
     padding: 50px 20px;
     text-align: center;
     background-color: #f1f1f1;
-    display: flex;
     justify-content: center;
     align-items: center;
     
 }
 
 .music-container {
-    width: 100%;
     display: flex;
     gap: 10px;
     justify-content: center;
     padding: 20px;
-	background-color: fuchsia;
+    background-color: fuchsia;
 }
 
 
 /* Selector de Álbumes */
-.album-selector {
+.album-container {
     justify-content: center;
-    width: 175px;
     display: flex;
+    width: 25%;
     top: 0;
-    max-height: 600px;
-    overflow-y: auto;
-    scrollbar-width: none; /*hace la barra de scroll invisible For Firefox */
     background-color: blueviolet;
+    
 }
 
 .album-selector::-webkit-scrollbar {
@@ -102,19 +98,24 @@ h2 {
 
 }
 .album-list {
+    max-width: 150px;
+    background-color: rgb(110, 255, 110);
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-width: none; /*hace la barra de scroll invisible For Firefox */
 }
 
 /* Reproductor */
 .player-container {
     position: relative; /* Para posicionar el spinner correctamente */
     display: none;
-    justify-content: center;
-    align-items: center;
+    width: 0%;
+    align-content: center;
     overflow: hidden;
     background-color: yellow;
+
 }
 
 .player {
@@ -128,7 +129,7 @@ h2 {
     display: none; /* Initially hidden */
     text-align: center;
     padding: 10px;
-    width: 20%;
+    width: 100%;
     background-color: aquamarine;
 }
 .album-title {

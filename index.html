@@ -35,28 +35,33 @@
     <!-- seccion musica -->
     <h2>Music</h2>
     <section id="music">
-
+            <!-- descripcion album -->
+            <div id="description-container" class="description-container">
+              <h3 id="album-title" class="album-title"></h3>
+              <p id="album-description" class="album-description"></p>
+            </div>
       <div class="music-container">
         <!-- selector album -->
-        <div class="album-selector">
-          <div class="album-videogames">
-            <h3>Videogames</h3>
-            <ul class="album-list"></ul>
+        <div class = "album-container">
+          <div class="album-selector">
+            <div class="album-videogames">
+              <h3>Videogames</h3>
+              <ul class="album-list"></ul>
+            </div>
+          </div>
+          <div class="album-selector">
+            <div class="album-cinema">
+              <h3>Audiovisual</h3>
+              <ul class="album-list"></ul>
+            </div>
+          </div>
+          <div class="album-selector">
+            <div class="album-gamejams">
+              <h3>GameJams</h3>
+              <ul class="album-list"></ul>
+            </div>
           </div>
         </div>
-        <div class="album-selector">
-          <div class="album-cinema">
-            <h3>Audiovisual</h3>
-            <ul class="album-list"></ul>
-          </div>
-        </div>
-        <div class="album-selector">
-          <div class="album-gamejams">
-            <h3>GameJams</h3>
-            <ul class="album-list"></ul>
-          </div>
-        </div>
-
         <!-- reproductor -->
         <div class="player-container" id="player-container">
           <div id="spinner" class="spinner"></div>
@@ -66,13 +71,11 @@
             seamless>
           </iframe>
         </div>
-
-        <div id="description-container" class="description-container">
-          <h3 id="album-title" class="album-title"></h3>
-          <p id="album-description" class="album-description"></p>
-        </div>
       </div>
+
     </section>
+
+    <!-- seccion about -->
     <section id="about">
       <h2>About Me</h2>
       <p>
