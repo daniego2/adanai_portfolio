@@ -1,8 +1,53 @@
+
+/* Variables de colores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --adanai_pink_100: #ec50a1;
+    --adanai_pink_90: #f06ab1;
+    --adanai_pink_80: #f484c1;
+    --adanai_pink_70: #f89ed1;
+    --adanai_pink_60: #fcb8e1;
+    --adanai_pink_50: #ffd2f1;
+    --adanai_pink_40: #ffebf9;
+    --adanai_pink_30: #fff5fb;
+    --adanai_pink_20: #fffaff;
+
+    --adanai_blue_100: #5bcefa;
+    --adanai_blue_90: #6fd4fb;
+    --adanai_blue_80: #83d9fc;
+    --adanai_blue_70: #97dffc;
+    --adanai_blue_60: #abe5fd;
+    --adanai_blue_50: #bfebfe;
+    --adanai_blue_40: #d3f1fe;
+    --adanai_blue_30: #e7f7ff;
+    --adanai_blue_10: #fbfdff;
+
+    --adanai_yellow_100: #fffd9c;
+    --adanai_yellow_75: #fffdab;
+    --adanai_yellow_50: #fffdba;
+    --adanai_yellow_25: #fffdc9;
+
+    --adanai_purple_100: #443065;
+    --adanai_purple_90: #5a4a7a;
+    --adanai_purple_80: #70548f;
+    --adanai_purple_70: #865ea4;
+    --adanai_purple_60: #9c68b9;
+    --adanai_purple_50: #b272ce;
+    --adanai_purple_40: #c87ce3;
+    --adanai_purple_30: #de86f8;
+    --adanai_purple_10: #f490ff;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    background-color: var(--adanai_pink_30);
     color: #333;
 }
 
@@ -17,8 +62,9 @@ h2 {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #1d62a7;
+    background: linear-gradient(0deg, var(--adanai_blue_100), var(--adanai_blue_70));
     color: white;
+    border-bottom: var(--adanai_blue_100)   5px solid;
 }
 
 .nav-links {
@@ -33,15 +79,25 @@ h2 {
     font-size: 16px;
 }
 
-.nav-links a:hover {
-    text-decoration: underline;
-}
-
 
 /* Presentación */
 .presentacion {
+    background-image: url('img/rsc/background_test.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
     text-align: center;
-    margin: 20px 0;
+    padding: 100px;
+}
+
+.presentacion h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.presentacion p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
 }
 
 
