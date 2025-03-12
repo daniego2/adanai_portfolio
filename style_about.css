@@ -1,0 +1,16 @@
+
+/* About */
+.imagerow {
+    display: flex;              /* Coloca las imágenes en una fila */
+    justify-content: flex-start; /* Alinea las imágenes al principio */
+    gap: 10px;                  /* Espacio entre imágenes */
+    padding: 10px;
+    overflow-x: auto;           /* Permite el desplazamiento horizontal */
+    white-space: nowrap;        /* Asegura que las imágenes no se envuelvan en una nueva línea */
+}
+
+.imagerow img {
+    width: auto;
+    height: 450px;               /* Tamaño fijo de las imágenes */
+    object-fit: cover;          /* Asegura que la imagen cubra su espacio sin deformarse */
+}

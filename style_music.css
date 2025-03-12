@@ -1,0 +1,102 @@
+
+/* Sección de Música */
+#music {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.music-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    background-color: fuchsia;
+}
+
+
+/* Selector de Álbumes */
+.album-container {
+    justify-content: center;
+    display: flex;
+    width: 100%; /* Full width on smaller screens */
+    max-width: 400px; /* Limit width on larger screens */
+    top: 0;
+    background-color: blueviolet;
+    padding: 4px;
+    overflow: hidden;
+    
+}
+
+.album-selector::-webkit-scrollbar {
+    display: none; /* hace la barra de scroll invisible For Chrome, Safari, and Opera */
+}
+.album-selector h3 {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+.album-selector img {
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.album-selector img:hover {
+    transform: scale(0.90);
+
+}
+.album-list {
+    background-color: rgb(110, 255, 110);
+    list-style: none;
+    padding: 10px;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-width: none; /*hace la barra de scroll invisible For Firefox */
+}
+
+/* Reproductor */
+.player-container {
+    position: relative; /* Para posicionar el spinner correctamente */
+    display: none;
+    width: 0%;
+    align-content: center;
+    overflow: hidden;
+    background-color: yellow;
+
+}
+
+.player {
+    border: none; /* Elimina el borde del iframe */
+    width: 100%; /* Ajusta el ancho del reproductor */
+    height: 100%; /* Ajusta la altura del reproductor */
+}
+
+/* Description */
+.description-container {
+    display: none; /* Initially hidden */
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: aquamarine;
+}
+.album-title {
+    text-align: center;
+    padding: 10px;
+}
+
+.album-description{
+    text-align: center;
+    padding: 10px;
+}
+
