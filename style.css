@@ -61,28 +61,29 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 30px 20px;
     background: linear-gradient(0deg, var(--adanai_blue_100), var(--adanai_blue_70));
     color: white;
     border-bottom: var(--adanai_blue_100)   5px solid;
+    position: relative;
 }
 
-.nav-links {
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-social-media {
     list-style: none;
     display: flex;
     gap: 15px;
+    margin-left: auto;
 }
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-}
-
 
 /* Presentación */
 .presentacion {
-    background-image: url('img/rsc/background_test.jpg');
+    background-image: url('img/rsc/background_test2.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -99,7 +100,6 @@ h2 {
     margin-bottom: 20px;
     font-style: italic;
 }
-
 
 .spinner {
     border: 4px solid rgba(0, 0, 0, 0.1);
