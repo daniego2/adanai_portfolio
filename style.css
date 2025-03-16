@@ -40,6 +40,17 @@
     --adanai_purple_40: #c87ce3;
     --adanai_purple_30: #de86f8;
     --adanai_purple_10: #f490ff;
+
+    --adanai_grey_100: #393E4C;
+    --adanai_grey_90: #4A4F5E;
+    --adanai_grey_80: #5B606F;
+    --adanai_grey_70: #6C7181;
+    --adanai_grey_60: #7D8293;
+    --adanai_grey_50: #8E93A5;
+    --adanai_grey_40: #9FA4B7;
+    --adanai_grey_30: #B0B5C9;
+    --adanai_grey_20: #C1C6DB;
+    --adanai_grey_10: #D2D7ED;
 }
 
 
@@ -69,9 +80,14 @@ h2 {
 }
 
 .logo {
+    padding-top: 20px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+.logo img {
+    max-width: 250px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .nav-social-media {
@@ -83,17 +99,23 @@ h2 {
 
 /* Presentación */
 .presentacion {
-    background-image: url('img/rsc/background_test2.jpg');
+    background-image: url('img/rsc/introduction_background.png');
     background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
     padding: 100px;
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .presentacion h1 {
     font-size: 50px;
     margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 8px rgba(224, 14, 14, 0.5);
 }
 .presentacion p {
     font-size: 20px;

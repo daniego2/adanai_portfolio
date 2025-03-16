@@ -34,13 +34,11 @@
 .album-container {
     justify-content: center;
     display: flex;
-    width: 100%;
-    max-width: 400px;
     top: 0;
-    /* background-color: blueviolet; */
-    padding: 4px;
     overflow: hidden;
-    
+    padding: 5px;
+    border: 3px solid var(--adanai_grey_10);
+    border-radius: 6px; /* Added to make the border rounded */
 }
 
 .album-selector::-webkit-scrollbar {
@@ -83,6 +81,9 @@
     width: 0%;
     align-content: center;
     overflow: hidden;
+    padding: 5px;
+    border: 3px solid var(--adanai_grey_10);
+    border-radius: 6px; /* Added to make the border rounded */
     /* background-color: yellow; */
 
 }
@@ -99,6 +100,8 @@
     text-align: center;
     padding: 5vh 50vh;
     width: 100%;
+    border: 3px solid var(--adanai_grey_10);
+    border-radius: 6px; /* Added to make the border rounded */
     /* background-color: aquamarine; */
 }
 .album-title {
