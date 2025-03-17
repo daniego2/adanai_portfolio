@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 :root {
+
+	--font_handwriting: 'Brush Script MT', cursive;
+
     --adanai_pink_100: #ec50a1;
     --adanai_pink_90: #f06ab1;
     --adanai_pink_80: #f484c1;
@@ -40,25 +43,29 @@
     --adanai_purple_40: #c87ce3;
     --adanai_purple_30: #de86f8;
     --adanai_purple_10: #f490ff;
+	
+	--adanai_grey_100: #393E4C;
+	--adanai_grey_90: #4A4F5E;
+	--adanai_grey_80: #5B606F;
+	--adanai_grey_70: #6C7181;
+	--adanai_grey_60: #7D8293;
+	--adanai_grey_50: #A0A5B8;
+	--adanai_grey_40: #B1B6CA;
+	--adanai_grey_30: #C2C7DC;
+	--adanai_grey_20: #D3D8EE;
+	--adanai_grey_10: #E4E9FF;
 
-    --adanai_grey_100: #393E4C;
-    --adanai_grey_90: #4A4F5E;
-    --adanai_grey_80: #5B606F;
-    --adanai_grey_70: #6C7181;
-    --adanai_grey_60: #7D8293;
-    --adanai_grey_50: #8E93A5;
-    --adanai_grey_40: #9FA4B7;
-    --adanai_grey_30: #B0B5C9;
-    --adanai_grey_20: #C1C6DB;
-    --adanai_grey_10: #D2D7ED;
 }
-
+header{
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--adanai_pink_30);
     color: #333;
 }
 
@@ -73,10 +80,10 @@ h2 {
     justify-content: space-between;
     align-items: center;
     padding: 30px 20px;
-    background: linear-gradient(0deg, var(--adanai_blue_100), var(--adanai_blue_70));
-    color: white;
-    border-bottom: var(--adanai_blue_100)   5px solid;
-    position: relative;
+	background-color: white;
+	box-shadow: 0px 0px 10px var(--adanai_blue_10);
+	background: linear-gradient(0deg, var(--adanai_blue_30), var(--adanai_blue_10));
+    /* background: linear-gradient(0deg, var(--adanai_blue_100), var(--adanai_blue_70)); */
 }
 
 .logo {
@@ -112,16 +119,14 @@ h2 {
 }
 
 .presentacion h1 {
-    font-size: 50px;
+
+	font-family: var(--font_handwriting);
+	font-weight: lighter;
+	letter-spacing: 2px;
     margin-bottom: 20px;
-    font-weight: bold;
-    text-shadow: 0px 0px 8px rgba(224, 14, 14, 0.5);
+    text-shadow: 0px 0px 2px var(--adanai_pink_20);
 }
-.presentacion p {
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-style: italic;
-}
+
 
 .spinner {
     border: 4px solid rgba(0, 0, 0, 0.1);

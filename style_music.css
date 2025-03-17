@@ -1,25 +1,22 @@
 
 /* Sección de Música */
 
-#music {
-    background-color: var(--adanai_pink_20);
-}
-
 .music-header {
     justify-content: center;
     text-align: center;
     padding: 5vh;
-    background: linear-gradient(to bottom, var(--adanai_blue_50), var(--adanai_pink_20));
+
+    /* background: linear-gradient(to bottom, var(--adanai_blue_50), var(--adanai_pink_20)); */
 }
 .music-header h2 {
     font-size: 2em;
     font-weight: bold;
+	color: var(--adanai_grey_100)
 }
 .music-header p {
-    padding-top: 5vh;
-    font-size: 1.5em;
+
     font-style: italic;
-    color: grey;
+    color: var(--adanai_grey_60);
 }
 .music-container {
     display: flex;
@@ -100,9 +97,8 @@
     text-align: center;
     padding: 5vh 50vh;
     width: 100%;
-    border: 3px solid var(--adanai_grey_10);
-    border-radius: 6px; /* Added to make the border rounded */
-    /* background-color: aquamarine; */
+    /* background-color: var(--adanai_grey_10);  */
+    background-color: var(--adanai_grey_10)
 }
 .album-title {
     text-align: center;
