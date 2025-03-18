@@ -64,3 +64,4 @@ function loadMedia(event, id, type, title, description) {
       playerContainer.style.display = "block";
   };
 }
+

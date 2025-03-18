@@ -1,5 +1,13 @@
 
 /* About */
+
+#about {
+	padding : 0 50px;
+	display: flex;
+}
+.about-header {
+	padding: 50px;
+}
 .imagerow {
     display: flex;              /* Coloca las imágenes en una fila */
     justify-content: flex-start; /* Alinea las imágenes al principio */

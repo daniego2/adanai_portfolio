@@ -1,13 +1,10 @@
 <!-- TODO:
  - Cambiar la resolucion de las fotos y estandarizar el formato
- - Añadir título y descripcion de cada album
+ - Poner los enlaces a RRSS que son
  - El overflow de los albumes debe tener un degradado o un boton de desplazar abajo
  - Cambiar el texto y fotos de la seccion about
- - meter seccion de videos
  - meter seccion de contacto
- - meter rrss
   -->
-
 
 <!DOCTYPE html>
 <html lang="es">
@@ -25,27 +22,42 @@
       <nav class="navbar">
         <div class="logo">
           <a href="#" onclick="location.reload();">
-            <img src="img/rsc/logo.png" alt="Logo">
+            <img src="img/rsc/logo.png" alt="Logo" />
           </a>
         </div>
         <ul class="nav-social-media">
           <li>
-            <img src="img/svg/spotify.svg" alt="Social Media Icon">
+            <a
+              href="https://open.spotify.com/artist/1ltXLpPri54JQVXqbmqoYC?si=j1ndAkF5QSa3n2IL-4TZ5g"
+              target="_blank"
+            >
+              <img src="img/svg/spotify.svg" alt="Social Media Icon" />
+            </a>
           </li>
           <li>
-            <img src="img/svg/bandcamp.svg" alt="Social Media Icon">
+            <a href="https://www.spotify.com" target="_blank">
+              <img src="img/svg/bandcamp.svg" alt="Social Media Icon" />
+            </a>
           </li>
           <li>
-            <img src="img/svg/instagram.svg" alt="Social Media Icon">
+            <a href="https://www.spotify.com" target="_blank">
+              <img src="img/svg/instagram.svg" alt="Social Media Icon" />
+            </a>
           </li>
           <li>
-            <img src="img/svg/x.svg" alt="Social Media Icon">
+            <a href="https://www.spotify.com" target="_blank">
+              <img src="img/svg/x.svg" alt="Social Media Icon" />
+            </a>
           </li>
           <li>
-            <img src="img/svg/bluesky.svg" alt="Social Media Icon">
+            <a href="https://www.spotify.com" target="_blank">
+              <img src="img/svg/bluesky.svg" alt="Social Media Icon" />
+            </a>
           </li>
           <li>
-            <img src="img/svg/tiktok.svg" alt="Social Media Icon">
+            <a href="https://www.spotify.com" target="_blank">
+              <img src="img/svg/tiktok.svg" alt="Social Media Icon" />
+            </a>
           </li>
         </ul>
       </nav>
@@ -67,7 +79,7 @@
       </div>
       <div class="music-container">
         <!-- selector album -->
-        <div class = "album-container">
+        <div class="album-container">
           <div class="album-selector">
             <div class="album-videogames">
               <h3>Videogames</h3>
@@ -90,65 +102,53 @@
         <!-- reproductor -->
         <div class="player-container" id="player-container">
           <div id="spinner" class="spinner"></div>
-          <iframe
-            id = "player"
-            class ="player"
-            seamless>
-          </iframe>
+          <iframe id="player" class="player" seamless> </iframe>
         </div>
       </div>
-
     </section>
 
     <!-- seccion about -->
     <section id="about">
-      <h2>About Me</h2>
-      <p>
-        "Hey chicos, sabían
-        que en terminos de reproducción entre hombres humanos y Pokémon hembras,
-        Vaporeon es el Pokémon mas compatible para los Humanos? No solo porque
-        están en el Grupo Huevo Campo, que está principalmente conformado por
-        Mamíferos, Vaporeon tiene en promedio una medida de 91.44 Cm. de altura
-        y un peso de 28,98 Kg., esto significa que son suficientemente grandes
-        para soportar penes humanos, y con sus impresionantes Estadisticas Base
-        de PS y acceso a Armadura Ácida, puedes ser duro con ella. Debido a su
-        biología mayoritariamente compuesta de agua, no hay dudas de que una
-        Vaporeon excitada sería increiblemente húmeda, tan húmeda que podrías
-        facilmente tener sexo con una por horas sin lastimarte o sentir dolor.
-        Ellas también pueden aprender los movimientos "Atracción", "Ojitos
-        Tiernos", "Seducción", "Encanto" y "Latigo", además de no tener pelaje
-        para esconder pezones, así que sería increiblemente facil conseguirte
-        una con humor. Con sus habilidades "Absorbe Agua" e "Hidratación",
-        pueden recuperarse facilmente de la fatiga con suficiente agua. Ningún
-        otro Pokémon llega a estar cerca de este nivel de compatibilidad.
-        Además, como curiosidad, si te empeñas suficiente al acabar, puedes
-        llegar a hacer a tu Vaporeon Blanca. Vaporeon está literalmente hecha
-        para el pene humano. Asombrosas Estadisticas de Defensa+Alta cantidad de
-        PS+Armadura Ácida significa que puede recibir verga todo el dia, de
-        todas las formas y tamaños, y aún así venir por mas."
-      </p>
+      <div class="about-header">
+        <h2>
+			About Me
+		</h2>
+        <p>
+          "Hey chicos, sabían que en terminos de reproducción entre hombres
+          humanos y Pokémon hembras, Vaporeon es el Pokémon mas compatible para
+          los Humanos? No solo porque están en el Grupo Huevo Campo, que está
+          principalmente conformado por Mamíferos, Vaporeon tiene en promedio
+		  No solo porque están en el Grupo Huevo Campo, que está
+          principalmente conformado por Mamíferos, Vaporeon tiene en promedio
+          una medida de 91.44 Cm. de altura"
+        </p>
+      </div>
       <div class="imagerow">
-        <img src="img/about/personal1.jpg" alt="Imagen 1">
-        <img src="img/about/personal2.jpg" alt="Imagen 2">
-        <img src="img/about/personal3.jpg" alt="Imagen 3">
-        <img src="img/about/personal4.jpg" alt="Imagen 4">
-        <img src="img/about/personal5.png" alt="Imagen 1">
-        <img src="img/about/personal6.jpg" alt="Imagen 2">
+        <img src="img/about/personal1.jpg" alt="Imagen 1" />
+        <img src="img/about/personal2.jpg" alt="Imagen 2" />
+        <img src="img/about/personal3.jpg" alt="Imagen 3" />
+        <img src="img/about/personal4.jpg" alt="Imagen 4" />
+        <img src="img/about/personal5.png" alt="Imagen 1" />
+        <img src="img/about/personal6.jpg" alt="Imagen 2" />
       </div>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <form action="mailto:danigonzalez282@gmail.com" method="post" enctype="text/plain">
+      <form
+        action="mailto:danigonzalez282@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
+        <input type="text" id="name" name="name" required />
+
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
+        <input type="email" id="email" name="email" required />
+
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="4" required></textarea>
-        
+
         <button type="submit">Send</button>
       </form>
     </section>

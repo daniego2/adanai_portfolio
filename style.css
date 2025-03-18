@@ -82,7 +82,7 @@ h2 {
     padding: 30px 20px;
 	background-color: white;
 	box-shadow: 0px 0px 10px var(--adanai_blue_10);
-	background: linear-gradient(0deg, var(--adanai_blue_30), var(--adanai_blue_10));
+	
     /* background: linear-gradient(0deg, var(--adanai_blue_100), var(--adanai_blue_70)); */
 }
 
