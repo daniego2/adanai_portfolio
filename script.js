@@ -65,3 +65,21 @@ function loadMedia(event, id, type, title, description) {
   };
 }
 
+
+document.addEventListener("DOMContentLoaded", function () {
+  const imagerow = document.querySelector(".imagerow");
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+
+  nextBtn.addEventListener("click", function () {
+      let firstImage = imagerow.querySelector("img");
+      let scrollAmount = firstImage.clientWidth + 10; // Ancho de la imagen + espacio entre ellas
+      imagerow.scrollLeft += scrollAmount;
+  });
+
+  prevBtn.addEventListener("click", function () {
+      let firstImage = imagerow.querySelector("img");
+      let scrollAmount = firstImage.clientWidth + 10; // Ancho de la imagen + espacio entre ellas
+      imagerow.scrollLeft -= scrollAmount;
+  });
+});
