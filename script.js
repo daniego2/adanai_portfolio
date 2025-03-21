@@ -67,19 +67,50 @@ function loadMedia(event, id, type, title, description) {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  const imagerow = document.querySelector(".imagerow");
+  const images = document.querySelectorAll(".imagerow img");
   const prevBtn = document.getElementById("prevBtn");
   const nextBtn = document.getElementById("nextBtn");
+  let currentIndex = 0;
+  let isTransitioning = false; // Previene clicks rápidos
+
+  function updateImage(newIndex) {
+      if (isTransitioning || newIndex === currentIndex) return;
+      isTransitioning = true;
+
+      const currentImage = images[currentIndex];
+      const nextImage = images[newIndex];
+
+      // Animación de salida
+      currentImage.style.opacity = "0";
+
+      setTimeout(() => {
+          currentImage.style.display = "none"; // Oculta la imagen actual
+          nextImage.style.display = "block"; // Muestra la nueva imagen
+          nextImage.style.opacity = "0"; // Asegura que empiece invisible
+
+          requestAnimationFrame(() => {
+              setTimeout(() => {
+                  nextImage.style.opacity = "1"; // Desvanece la nueva imagen
+                  currentIndex = newIndex; // Actualiza el índice
+                  isTransitioning = false; // Libera el bloqueo
+              }, 50); // Pequeño delay para transición suave
+          });
+      }, 300); // Tiempo de la animación de salida
+  }
 
   nextBtn.addEventListener("click", function () {
-      let firstImage = imagerow.querySelector("img");
-      let scrollAmount = firstImage.clientWidth + 10; // Ancho de la imagen + espacio entre ellas
-      imagerow.scrollLeft += scrollAmount;
+      let newIndex = (currentIndex + 1) % images.length;
+      updateImage(newIndex);
   });
 
   prevBtn.addEventListener("click", function () {
-      let firstImage = imagerow.querySelector("img");
-      let scrollAmount = firstImage.clientWidth + 10; // Ancho de la imagen + espacio entre ellas
-      imagerow.scrollLeft -= scrollAmount;
+      let newIndex = (currentIndex - 1 + images.length) % images.length;
+      updateImage(newIndex);
+  });
+
+  // Inicializar la vista con la primera imagen visible
+  images.forEach((img, index) => {
+      img.style.display = index === 0 ? "block" : "none";
+      img.style.opacity = index === 0 ? "1" : "0";
   });
 });

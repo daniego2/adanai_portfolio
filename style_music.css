@@ -1,5 +1,8 @@
 
 /* Sección de Música */
+#music {
+    font-family: 'Lora', serif;
+}
 
 .music-header {
     justify-content: center;

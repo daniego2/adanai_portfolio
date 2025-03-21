@@ -1,152 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Playfair+Display:wght@500&display=swap");
 
-/* Variables de colores */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+/* Variables de colores */
 :root {
+  --adanai_pink_100: #ec50a1;
+  --adanai_pink_90: #f06ab1;
+  --adanai_pink_80: #f484c1;
+  --adanai_pink_70: #frgb(29, 29, 29)
+  --adanai_pink_60: #fcb8e1;
+  --adanai_pink_50: #ffd2f1;
+  --adanai_pink_40: #ffebf9;
+  --adanai_pink_30: #fff5fb;
+  --adanai_pink_20: #fffaff;
 
-	--font_handwriting: 'Brush Script MT', cursive;
+  --adanai_blue_100: #5bcefa;
+  --adanai_blue_90: #6fd4fb;
+  --adanai_blue_80: #83d9fc;
+  --adanai_blue_70: #97dffc;
+  --adanai_blue_60: #abe5fd;
+  --adanai_blue_50: #bfebfe;
+  --adanai_blue_40: #d3f1fe;
+  --adanai_blue_30: #e7f7ff;
+  --adanai_blue_10: #fbfdff;
 
-    --adanai_pink_100: #ec50a1;
-    --adanai_pink_90: #f06ab1;
-    --adanai_pink_80: #f484c1;
-    --adanai_pink_70: #f89ed1;
-    --adanai_pink_60: #fcb8e1;
-    --adanai_pink_50: #ffd2f1;
-    --adanai_pink_40: #ffebf9;
-    --adanai_pink_30: #fff5fb;
-    --adanai_pink_20: #fffaff;
+  --adanai_yellow_100: #fffd9c;
+  --adanai_yellow_75: #fffdab;
+  --adanai_yellow_50: #fffdba;
+  --adanai_yellow_25: #fffdc9;
 
-    --adanai_blue_100: #5bcefa;
-    --adanai_blue_90: #6fd4fb;
-    --adanai_blue_80: #83d9fc;
-    --adanai_blue_70: #97dffc;
-    --adanai_blue_60: #abe5fd;
-    --adanai_blue_50: #bfebfe;
-    --adanai_blue_40: #d3f1fe;
-    --adanai_blue_30: #e7f7ff;
-    --adanai_blue_10: #fbfdff;
+  --adanai_purple_100: #443065;
+  --adanai_purple_90: #5a4a7a;
+  --adanai_purple_80: #70548f;
+  --adanai_purple_70: #865ea4;
+  --adanai_purple_60: #9c68b9;
+  --adanai_purple_50: #b272ce;
+  --adanai_purple_40: #c87ce3;
+  --adanai_purple_30: #de86f8;
+  --adanai_purple_10: #f490ff;
 
-    --adanai_yellow_100: #fffd9c;
-    --adanai_yellow_75: #fffdab;
-    --adanai_yellow_50: #fffdba;
-    --adanai_yellow_25: #fffdc9;
-
-    --adanai_purple_100: #443065;
-    --adanai_purple_90: #5a4a7a;
-    --adanai_purple_80: #70548f;
-    --adanai_purple_70: #865ea4;
-    --adanai_purple_60: #9c68b9;
-    --adanai_purple_50: #b272ce;
-    --adanai_purple_40: #c87ce3;
-    --adanai_purple_30: #de86f8;
-    --adanai_purple_10: #f490ff;
-	
-	--adanai_grey_100: #393E4C;
-	--adanai_grey_90: #4A4F5E;
-	--adanai_grey_80: #5B606F;
-	--adanai_grey_70: #6C7181;
-	--adanai_grey_60: #7D8293;
-	--adanai_grey_50: #A0A5B8;
-	--adanai_grey_40: #B1B6CA;
-	--adanai_grey_30: #C2C7DC;
-	--adanai_grey_20: #D3D8EE;
-	--adanai_grey_10: #E4E9FF;
-
+  --adanai_grey_100: #393e4c;
+  --adanai_grey_90: #4a4f5e;
+  --adanai_grey_80: #5b606f;
+  --adanai_grey_70: #6c7181;
+  --adanai_grey_60: #7d8293;
+  --adanai_grey_50: #a0a5b8;
+  --adanai_grey_40: #b1b6ca;
+  --adanai_grey_30: #c2c7dc;
+  --adanai_grey_20: #d3d8ee;
+  --adanai_grey_10: #e4e9ff;
 }
-header{
-	position: sticky;
-	top: 0;
-	z-index: 1000;
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
-
 
 /* Barra de Navegación */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 20px;
-	background-color: white;
-	box-shadow: 0px 0px 10px var(--adanai_blue_10);
-	
-    /* background: linear-gradient(0deg, var(--adanai_blue_100), var(--adanai_blue_70)); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px var(--adanai_blue_10);
+
+  /* background: linear-gradient(0deg, var(--adanai_blue_100), var(--adanai_blue_70)); */
 }
 
 .logo {
-    padding-top: 20px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+  padding-top: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .logo img {
-    max-width: 250px; /* Adjust size as needed */
-    height: auto; /* Maintain aspect ratio */
+  max-width: 250px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .nav-social-media {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin-left: auto;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
 }
 .nav-social-media img {
-    width: 30px;
+  width: 30px;
 }
 
+.nav-social-media img:hover{
+    transform: scale(1.3);
+    transition: transform 0.5s ease;
+}
 /* Presentación */
 .presentacion {
-    background-image: url('img/rsc/introduction_background.png');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    padding: 100px;
-    height: 512px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background-image: url("img/rsc/introduction_background.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px;
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Lora", serif;
 }
 
 .presentacion h1 {
-
-	font-family: var(--font_handwriting);
-	font-weight: lighter;
-	letter-spacing: 2px;
-    margin-bottom: 20px;
-    text-shadow: 0px 0px 2px var(--adanai_pink_20);
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 2px var(--adanai_pink_20);
 }
 
-
 .spinner {
-    border: 4px solid rgba(0, 0, 0, 0.1);
-    border-top: 4px solid #1d62a7; /* Color del spinner */
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    animation: spin 1s linear infinite;
-    display: none; /* Oculto por defecto */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #1d62a7; /* Color del spinner */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  display: none; /* Oculto por defecto */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
 }
 
 @keyframes spin {
-    0% { transform: translate(-50%, -50%) rotate(0deg); }
-    100% { transform: translate(-50%, -50%) rotate(360deg); }
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
