@@ -1,16 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Playfair+Display:wght@500&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--body_font)
 }
-/* Variables de colores */
+
 :root {
+
+  --body_font: "Lato", sans-serif;
+
   --adanai_pink_100: #ec50a1;
   --adanai_pink_90: #f06ab1;
   --adanai_pink_80: #f484c1;
-  --adanai_pink_70: #frgb(29, 29, 29)
+  --adanai_pink_70: #f6a6d1;
   --adanai_pink_60: #fcb8e1;
   --adanai_pink_50: #ffd2f1;
   --adanai_pink_40: #ffebf9;
@@ -110,20 +115,21 @@ h2 {
   background-size: cover;
   background-position: center;
   color: white;
-  text-align: center;
-  padding: 100px;
+  padding: 50px;
   height: 512px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  font-family: "Lora", serif;
+  font-family: var(--body_font);
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  justify-content: flex-start;
+  align-items: flex-end;;
 }
 
-.presentacion h1 {
-  font-weight: lighter;
-  letter-spacing: 2px;
+.presentacion p {
   margin-bottom: 20px;
-  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 2px 6px;
 }
 
 .spinner {
