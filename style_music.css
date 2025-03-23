@@ -2,31 +2,38 @@
 /* Sección de Música */
 #music {
     font-family: 'Lora', serif;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .music-header {
     justify-content: center;
     text-align: center;
-    padding: 5vh;
 
     /* background: linear-gradient(to bottom, var(--adanai_blue_50), var(--adanai_pink_20)); */
 }
 .music-header h2 {
-    font-size: 2em;
-    font-weight: bold;
-	color: var(--adanai_grey_100)
+    font-size: 40px;
+    font-weight: 1000;
+    color: var(--adanai_grey_100);
+    letter-spacing: 2px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-family: "Lora", serif;
 }
 .music-header p {
 
     font-style: italic;
     color: var(--adanai_grey_60);
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.308);
 }
 .music-container {
     display: flex;
     gap: 10px;
     justify-content: center;
     padding: 20px;
-    /* background-color: fuchsia; */
 }
 
 
@@ -37,7 +44,7 @@
     top: 0;
     overflow: hidden;
     padding: 5px;
-    border: 3px solid var(--adanai_grey_10);
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.308);
     border-radius: 6px; /* Added to make the border rounded */
 }
 
@@ -82,8 +89,7 @@
     align-content: center;
     overflow: hidden;
     padding: 5px;
-    border: 3px solid var(--adanai_grey_10);
-    border-radius: 6px; /* Added to make the border rounded */
+
     /* background-color: yellow; */
 
 }

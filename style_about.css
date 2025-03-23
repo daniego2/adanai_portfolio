@@ -1,23 +1,35 @@
-
 /* About */
 
 #about {
 	padding : 0 10px;
-	display: flex;
-    background-color: var(--adanai_grey_50);
+    background-color: #eeeeee;
+    align-items: stretch;
+    justify-content: center;
 }
 
-.about-header {
-    text-align: center;
-    width: 50%;
-    padding: 40px;
-    display: flex;
+.aboutme {
+    font-size: 40px;
+    font-weight: 1000;
+    margin-bottom: 15px;
+    color: var(--adanai_grey_100);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
     justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-family: "Lora", serif;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.308);
+    width: 100%;
+}
+.text-photo {
+
     align-items: center;
-    background: var(--adanai_blue_30);
-    border-radius: 12px;
-    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.1);
-    margin: 5px;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .about-text {
@@ -25,7 +37,6 @@
     line-height: 1.8;
     color: #2c2c2c;
     text-align: left;
-    max-width: 550px;
     padding: 30px;
     background: white;
     border-radius: 8px;
@@ -33,9 +44,19 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.about-text:hover {
-    transform: translateY(-5px); /* Efecto sutil al pasar el cursor */
+
+.about-photo {
+    display: flex;
+    padding: 20px 0;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease-in-out;
+    justify-content: center; /* Center the image */
+    position: relative; /* Enable positioning for overlap */
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 4px;
 }
+
 
 .about-text h2 {
     font-size: 28px;
@@ -46,13 +67,16 @@
     display: inline-block;
     padding-bottom: 5px;
 }
+.about-text:hover {
+    transform: translateY(-5px);
+}
 
 .about-text p {
     margin-bottom: 14px;
 }
 
 .about-text strong {
-    color: #0056b3; /* Azul profundo para resaltar */
+    color: var(--adanai_purple_100);
     font-weight: 600;
 }
 
@@ -61,54 +85,41 @@
     color: #666;
     text-align: right;
 }
-.image-container {
-    margin: 5px;
-    position: relative;
-    display: flex;
-    justify-content: right;
-    width: 50%;
-    padding: 40px;
-    display: flex;
-    align-items: center;
-    background: var(--adanai_blue_30);
-    border-radius: 12px;
-    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.1);
-    margin: 5px;
-
-}
 
 .imagerow {
 
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
+
+    
 }
 
 .imagerow img {
-
-    max-height: 60vh;
+    
+    max-height: 500px;
     object-fit: cover;
-    padding: 0px 50px;
+    padding-right: 50px;
     transition: opacity 0.5s ease-in-out; /* Animación de desvanecimiento */
 }
 
-.imagerow:hover {
-    transform: translateY(-5px); /* Efecto sutil al pasar el cursor */
+.image-container img {
+    max-width: 100%; 
+    object-fit: contain; 
 }
+
 #about button {
+    justify-items: right;
     margin: 0 20px;
-    background-color: rgba(4, 0, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     cursor: pointer;
     border: none;
-    border-radius: 50%;
+    border-radius: 0%;
     z-index: 10;
 }
 
 #about button:hover {
     background-color: rgba(0, 0, 0, 0.8);
-    transform: scale(0.90);
     transition: ease 0.3s;
 }
 
@@ -119,4 +130,13 @@
 
 #prevBtn {
     display: none;
+}
+
+#nextBtn {
+    position: absolute; /* Overlap with the image */
+    right: 0; /* Align to the right */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for perfect centering */
+    z-index: 10; /* Ensure it is above other elements */
+    height: 100%; /* Make the button as high as its container */
 }

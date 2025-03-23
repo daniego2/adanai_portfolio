@@ -8,164 +8,171 @@
 
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AdanaiMusic</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style_music.css" />
-    <link rel="stylesheet" href="style_about.css" />
-  </head>
-  <body>
-    <!-- navegaçao -->
-    <header>
-      <nav class="navbar">
-        <div class="logo">
-          <a href="#" onclick="location.reload();">
-            <img src="img/rsc/logo.png" alt="Logo" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AdanaiMusic</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style_music.css" />
+  <link rel="stylesheet" href="style_about.css" />
+  <link rel="stylesheet" href="style_contact.css" />
+</head>
+
+<body>
+  <!-- navegaçao -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#" onclick="location.reload();">
+          <img src="img/rsc/logo.png" alt="Logo" />
+        </a>
+      </div>
+      <ul class="nav-social-media">
+        <li>
+          <a href="https://open.spotify.com/artist/1ltXLpPri54JQVXqbmqoYC?si=j1ndAkF5QSa3n2IL-4TZ5g" target="_blank">
+            <img src="img/svg/spotify.svg" alt="Social Media Icon" />
           </a>
-        </div>
-        <ul class="nav-social-media">
-          <li>
-            <a
-              href="https://open.spotify.com/artist/1ltXLpPri54JQVXqbmqoYC?si=j1ndAkF5QSa3n2IL-4TZ5g"
-              target="_blank"
-            >
-              <img src="img/svg/spotify.svg" alt="Social Media Icon" />
-            </a>
-          </li>
-          <li>
-            <a href="https://adanai.bandcamp.com/" target="_blank">
-              <img src="img/svg/bandcamp.svg" alt="Social Media Icon" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/adanaimusic/" target="_blank">
-              <img src="img/svg/instagram.svg" alt="Social Media Icon" />
-            </a>
-          </li>
-          <li>
-            <a href="https://x.com/Adanai_" target="_blank">
-              <img src="img/svg/x.svg" alt="Social Media Icon" />
-            </a>
-          </li>
-          <li>
-            <a href="https://bsky.app/profile/adanai.bsky.social" target="_blank">
-              <img src="img/svg/bluesky.svg" alt="Social Media Icon" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.tiktok.com/@adanai_" target="_blank">
-              <img src="img/svg/tiktok.svg" alt="Social Media Icon" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/@AdanaiGuitar" target="_blank">
-              <img src="img/svg/youtube.svg" alt="Social Media Icon" />
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="presentacion">
-      <h1>Composer, Producer, Multi-instrumentalist...</h1>
+        </li>
+        <li>
+          <a href="https://adanai.bandcamp.com/" target="_blank">
+            <img src="img/svg/bandcamp.svg" alt="Social Media Icon" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/adanaimusic/" target="_blank">
+            <img src="img/svg/instagram.svg" alt="Social Media Icon" />
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/Adanai_" target="_blank">
+            <img src="img/svg/x.svg" alt="Social Media Icon" />
+          </a>
+        </li>
+        <li>
+          <a href="https://bsky.app/profile/adanai.bsky.social" target="_blank">
+            <img src="img/svg/bluesky.svg" alt="Social Media Icon" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@adanai_" target="_blank">
+            <img src="img/svg/tiktok.svg" alt="Social Media Icon" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@AdanaiGuitar" target="_blank">
+            <img src="img/svg/youtube.svg" alt="Social Media Icon" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="presentacion">
+    <h1>Composer, Producer, Multi-instrumentalist...</h1>
+  </div>
+
+  <!-- seccion musica -->
+  <section id="music">
+    <div class="music-header">
+      <h2>My Music:</h2>
+      <p>(Click on an album to listen to it)</p>
     </div>
-
-    <!-- seccion musica -->
-    <section id="music">
-      <div class="music-header">
-        <h2>My Music</h2>
-        <p>(Click on an album to listen to it)</p>
-      </div>
-      <!-- descripcion album -->
-      <div id="description-container" class="description-container">
-        <h3 id="album-title" class="album-title"></h3>
-        <p id="album-description" class="album-description"></p>
-      </div>
-      <div class="music-container">
-        <!-- selector album -->
-        <div class="album-container">
-          <div class="album-selector">
-            <div class="album-videogames">
-              <h3>Videogames</h3>
-              <ul class="album-list"></ul>
-            </div>
-          </div>
-          <div class="album-selector">
-            <div class="album-cinema">
-              <h3>Audiovisual</h3>
-              <ul class="album-list"></ul>
-            </div>
-          </div>
-          <div class="album-selector">
-            <div class="album-gamejams">
-              <h3>GameJams</h3>
-              <ul class="album-list"></ul>
-            </div>
+    <!-- descripcion album -->
+    <div id="description-container" class="description-container">
+      <h3 id="album-title" class="album-title"></h3>
+      <p id="album-description" class="album-description"></p>
+    </div>
+    <div class="music-container">
+      <!-- selector album -->
+      <div class="album-container">
+        <div class="album-selector">
+          <div class="album-videogames">
+            <h3>Videogames</h3>
+            <ul class="album-list"></ul>
           </div>
         </div>
-        <!-- reproductor -->
-        <div class="player-container" id="player-container">
-          <div id="spinner" class="spinner"></div>
-          <iframe id="player" class="player" seamless> </iframe>
+        <div class="album-selector">
+          <div class="album-cinema">
+            <h3>Audiovisual</h3>
+            <ul class="album-list"></ul>
+          </div>
+        </div>
+        <div class="album-selector">
+          <div class="album-gamejams">
+            <h3>GameJams</h3>
+            <ul class="album-list"></ul>
+          </div>
         </div>
       </div>
-    </section>
+      <!-- reproductor -->
+      <div class="player-container" id="player-container">
+        <div id="spinner" class="spinner"></div>
+        <iframe id="player" class="player" seamless> </iframe>
+      </div>
+    </div>
+  </section>
 
-    <!-- seccion about -->
-    <section id="about">
+  <!-- seccion about -->
+  <section id="about">
+    <h1 class="aboutme">About me:</h1>
+    <div class="text-photo">
       <div class="about-header">
         <div class="about-text">
-            <h2>Sobre Mí</h2>
-            <p>
-                Dicen que el conocimiento es poder, así que aquí va un dato curioso:  
-                si alguna vez te preguntaste qué Pokémon es más compatible con los humanos...  
-                la respuesta podría sorprenderte.  
-            </p>
-            <p>
-                <strong>Vaporeon</strong>, con su elegante forma acuática y su naturaleza adaptable,  
-                posee características únicas que lo hacen destacar. Su tamaño, su peso y su afinidad  
-                con los mamíferos lo convierten en un caso fascinante.  
-            </p>
-            <p>
-                Y como buen Pokémon de agua, siempre está envuelto en un aura de fluidez y misterio.  
-            </p>
-            <p class="signature">— Solo un pensamiento científico. 📖✨</p>
+          <h2>A Journey Through Music</h2>
+          <p>
+            Born in Málaga in 1995, I have spent my life immersed in the world of music.
+            With a background in composition and <strong>mastery of multiple instruments</strong>,
+            I have shaped my career as a <span class="highlight">versatile musician, composer, and producer</span>.
+            My work spans across <span class="highlight">video games, short films</span>, and collaborations with artists
+            from a wide range of genres, always striving to create <em>immersive and emotionally powerful
+              soundscapes</em>.
+          </p>
+          <p>
+            Passionate about storytelling through music, I blend <span class="highlight">technical
+              expertise</span>
+            with <span class="highlight">artistic sensitivity</span> to bring unique sonic identities to every project.
+            My dedication and creativity have been <strong>recognized with multiple awards</strong>,
+            reinforcing my commitment to pushing musical boundaries.
+          </p>
+          <p class="signature">— <span class="signature-text">Let’s create something extraordinary together 🎼</span></p>
         </div>
-    </div>
       </div>
-      <div class="image-container">
+      <div class="about-photo">
         <button id="prevBtn"><img src="img/svg/arrow-left.svg"></button>
         <div class="imagerow">
-            <img src="img/about/personal1.jpg" alt="Imagen 1" />
-            <img src="img/about/personal2.jpg" alt="Imagen 2" />
-            <img src="img/about/personal3.jpg" alt="Imagen 3" />
-            <img src="img/about/personal4.jpg" alt="Imagen 4" />
-            <img src="img/about/personal5.png" alt="Imagen 5" />
-          </div>
-          <button id="nextBtn"><img src="img/svg/arrow-right.svg"></button>
+          <img src="img/about/std-personal1.png" alt="Imagen 1" />
+          <img src="img/about/std-personal2.png" alt="Imagen 2" />
+          <img src="img/about/std-personal3.png" alt="Imagen 3" />
+          <img src="img/about/std-personal4.png" alt="Imagen 4" />
+          <img src="img/about/std-personal5.png" alt="Imagen 5" />
+        </div>
+        <button id="nextBtn"><img src="img/svg/arrow-right.svg"></button>
     </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <form
-        action="mailto:danigonzalez282@gmail.com"
-        method="post"
-        enctype="text/plain"
-      >
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit">Send</button>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="contact-form">
+      <div class ="contactme">
+        <p class="p1">Need music for your project?</p>
+        <p class="p2">Feel free to send me a message!</p>
+      </div>
+      <div class="form-container">
+        <form action="mailto:danielgonzalezsanchez282@gmail.com" method="GET">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+      
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required />
+      
+          <label for="message">Message:</label>
+          <textarea id="message" name="body" rows="4" required></textarea>
+      
+          <button type="submit">Send</button>
       </form>
-    </section>
-    <script src="script.js"></script>
-  </body>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
 </html>
