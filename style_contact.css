@@ -48,24 +48,8 @@ form {
     align-items: center;
 }
 
-form label {
-    display: block; 
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-form button {
-    display: block; 
-    margin-top: 10px; 
-    padding: 10px 20px;
-    background-color: var(--adanai_purple_80);
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+.form-group {
+    margin-bottom: 20px;
 }
 
 form button:hover {

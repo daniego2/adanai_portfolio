@@ -114,3 +114,25 @@ document.addEventListener("DOMContentLoaded", function () {
       img.style.opacity = index === 0 ? "1" : "0";
   });
 });
+
+
+const urlParams = new URLSearchParams(window.location.search);
+const status = urlParams.get('status');
+const messageElement = document.getElementById('message');
+const messageText = document.getElementById('message-text');
+
+if (status) {
+    if (status === 'success') {
+        messageElement.style.backgroundColor = '#4CAF50'; // Verde
+        messageText.textContent = 'Correo enviado con éxito!';
+    } else if (status === 'error') {
+        messageElement.style.backgroundColor = '#f44336'; // Rojo
+        const errorMessage = urlParams.get('message');
+        messageText.textContent = `Error al enviar el correo: ${errorMessage || 'No se pudo enviar el mensaje'}`;
+    }
+
+    messageElement.style.display = 'block'; // Mostrar el mensaje
+    setTimeout(function() {
+      messageElement.style.display = 'none';
+  }, 5000);
+}

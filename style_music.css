@@ -59,6 +59,7 @@
 
 
 .album-selector img {
+    padding: 5px;
     width: 120px;
     height: auto;
     object-fit: cover;
