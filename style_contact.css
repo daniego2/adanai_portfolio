@@ -7,21 +7,9 @@
     background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
 
 }
-.contactme h1 {
-    font-size: 40px;
-    font-weight: 1000;
-    margin-bottom: 15px;
-    color: var(--adanai_grey_10);
-    padding-bottom: 20px;
-    padding-top: 20px;
-    letter-spacing: 2px;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-}
+
 .contactme p{
     color: var(--adanai_grey_10);
-    padding-top: 20px;
     padding-bottom: 20px;
     letter-spacing: 2px;
     justify-content: center;
@@ -30,8 +18,9 @@
 }
 
 .p1 {
-    font-size: 14px;
+    padding-top: 20px;
     font-style: italic;
+    font-weight: bold;
 }
 .contact-form {
     background-image: url("img/rsc/contact_background.png");
@@ -47,15 +36,49 @@ form {
     flex-direction: column;
     align-items: center;
 }
-
 .form-group {
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-form button:hover {
+.button {
+    display: block; 
+    margin-top: 10px; 
+    padding: 10px 20px;
+    background-color: var(--adanai_blue_100);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
     background-color: var(--adanai_purple_50);
 }
 
 form textarea {
     height: 150px;
+}
+
+#message {
+    display: none; /* Oculto por defecto */
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden; /* Oculta el contenido desbordado */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos si el texto es demasiado largo */
+    white-space: normal; /* Permite que el texto se envuelva en varias líneas */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente */
+}
+
+#message-text {
+    margin: 0;
+    color: white;
 }

@@ -75,6 +75,17 @@ h2 {
   text-align: center;
 }
 
+h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  
+}
+
 /* Barra de Navegación */
 .navbar-menu {
   display: flex;
@@ -125,7 +136,7 @@ h2 {
   font-weight: 400;
   letter-spacing: -1px;
   justify-content: flex-start;
-  align-items: flex-end;;
+  align-items: flex-end;
 }
 
 .presentacion p {

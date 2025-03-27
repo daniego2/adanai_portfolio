@@ -6,19 +6,9 @@
     justify-content: center;
 }
 
-.aboutme {
-    font-size: 40px;
-    font-weight: 1000;
-    margin-bottom: 15px;
-    color: var(--adanai_grey_100);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    letter-spacing: 2px;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    border-bottom: 2px solid rgba(128, 128, 128, 0.308);
-    width: 100%;
+.aboutme-h1 {
+    color: var(--adanai_grey_90);
+    font-weight: 500;
 }
 .text-photo {
     display: flex;

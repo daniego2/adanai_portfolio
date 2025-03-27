@@ -43,6 +43,6 @@ try {
     // En caso de error, redirigir con un mensaje de error
     $anchor = isset($_GET['anchor']) ? $_GET['anchor'] : '';  // Obtener el anclaje desde la URL
     header("Location: index.html?status=error&message=" . urlencode($mail->ErrorInfo) . ($anchor ? "&anchor=" . $anchor : ""));
-    exit; // Detener ejecución después de redirigir
+    exit; // Detener ejecu ción después de redirigir
 }
 ?>
