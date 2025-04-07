@@ -2,7 +2,6 @@
 #music {
     padding-bottom: 50px;
     padding-top: 50px;
-    background-color: rgb(231, 231, 231);
 }
 
 .music-header {
@@ -27,15 +26,17 @@
 
 /* Selector de Álbumes */
 .album-container {
-    justify-content: center;
-    display: flex;
-    top: 0;
-    overflow: hidden;
-    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 5px; /* Adds space between grid items */
+    padding: 10px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.308);
-    border-radius: 6px; /* Added to make the border rounded */
-    width: 25%;
+    border-radius: 6px; /* Adds rounded corners */
+    max-width: 100%; /* Ensures the container doesn't exceed the available space */
+    box-sizing: border-box; /* Includes padding and border in the element's total width */
+    overflow-x: auto; /* Adds horizontal scrollbar if content overflows */
+    white-space: nowrap; /* Prevents wrapping of grid items */
 }
 
 .album-selector::-webkit-scrollbar {
@@ -44,23 +45,21 @@
 
 .album-selector h3 {
     color: var(--adanai_grey_70);
-    font-size: larger;
     text-align: center;
-    padding: 10px;
     position: sticky;
     top: 0;
     z-index: 10;
-    border-bottom: 1px solid var(--adanai_grey_10);
+    font-size: clamp(10px, 3vw, 20px);
+    min-width: 120px;
 }
-
 
 .album-selector img {
     padding: 5px;
-    width: 120px;
-    height: auto;
-    object-fit: cover;
+    max-width: 100%;
     border-radius: 10px;
     transition: transform 0.3s ease;
+    max-height: 100%; /* Ensures the image height doesn't exceed the container */
+    object-fit: contain; /* Scales the image to fit within the container while maintaining aspect ratio */
 }
 
 .album-selector img:hover {
@@ -72,6 +71,7 @@
     list-style: none;
     padding: 10px;
     max-height: 600px;
+    max-width: 200px;
     overflow-y: auto;
     scrollbar-width: none; /*hace la barra de scroll invisible Firefox */
 }
@@ -82,8 +82,7 @@
     display: none;
     align-content: center;
     padding: 5px;
-    width: 50%;
-
+    width: 100%;
     /* background-color: yellow; */
 
 }
@@ -111,11 +110,9 @@
         display: flex; /* Ensure flex layout */
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items horizontally */
-        width: 90%; /* Shrink horizontally as the screen width decreases */
         margin: 0 auto; /* Center the container itself */
     }
     .album-container {
-        width: 100%; /* Ensure the album container fills the available width */
         display: flex;
         padding: 10px;
         margin-bottom: 20px; /* Add some space below the album container */

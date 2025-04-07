@@ -3,7 +3,7 @@
     "title": "TROM",
     "id": "3XSRsv7fRTsiLH1RMfhaZZ",
     "category": "videogames",
-    "image": "img/albums/trom.jpg",
+    "image": "img/albums/std_trom.png",
     "type": "spotify",
     "description": "TROM is a game that combines the best of the puzzle, adventure and platform genres. Join the little TROM in his journey to the Isle of the Gods to get back the stolen sacred crystal."
   },
@@ -11,7 +11,7 @@
     "title": "Frutageddon",
     "id": "5iNIJR4LGNIVcYiWymKmJx",
     "category": "videogames",
-    "image": "img/albums/frutageddon.png",
+    "image": "img/albums/std_frutageddon.png",
     "type": "spotify",
     "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum"
   },
@@ -19,7 +19,7 @@
     "title": "Little Fairy Dress Up",
     "id": "4FBHqyRdtfFGzI5Q8SHa4F",
     "category": "videogames",
-    "image": "img/albums/little_fairy_dress_up.png",
+    "image": "img/albums/std_little_fairy_dress_up.png",
     "type": "spotify",
     "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum"
   },
@@ -27,7 +27,7 @@
     "title": "Princess Dress Up",
     "id": "7DGuAB7icGU0WYtt2zBX3B",
     "category": "videogames",
-    "image": "img/albums/princess_dress_up.jpg",
+    "image": "img/albums/std_princess_dress_up.png",
     "type": "spotify",
     "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum"
   },
@@ -35,7 +35,7 @@
     "title": "Model Style Dress Up",
     "id": "6Pl6TQkJA3OK32ypXrhrEC",
     "category": "videogames",
-    "image": "img/albums/model_style_dress_up.jpg",
+    "image": "img/albums/std_model_style_dress_up.png",
     "type": "spotify",
     "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum"
   },
@@ -43,7 +43,7 @@
     "title": "Indian Princess Dress Up",
     "id": "4qgw9swuIbBX15tejdkUgC",
     "category": "videogames",
-    "image": "img/albums/indian_princess_dress_up.png",
+    "image": "img/albums/std_indian_princess_dress_up.png",
     "type": "spotify",
     "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum"
   },
@@ -51,7 +51,7 @@
     "title": "Doll Style: Underground Design and Dress",
     "id": "7BL9618ctP2iU2YPiVwYKi",
     "category": "videogames",
-    "image": "img/albums/doll_style_underground_design_and_dress.png",
+    "image": "img/albums/std_doll_style_underground_design_and_dress.png",
     "type": "spotify",
     "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum"
   },
@@ -59,7 +59,7 @@
     "title": "Ahora, me toca a mi",
     "id": "ZC3AtAvHG3s",
     "category": "audiovisual",
-    "image": "img/albums/ahora_me_toca_a_mi.png",
+    "image": "img/albums/std_ahora_me_toca_a_mi.png",
     "type": "youtube",
     "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum"
   },
@@ -67,7 +67,7 @@
     "title": "Madeon - You're on (feat. Playluist)",
     "id": "8Mfu9QiaIdw",
     "category": "audiovisual",
-    "image": "img/albums/you_are_on.png",
+    "image": "img/albums/std_you_are_on.png",
     "type": "youtube",
     "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum"
   },
@@ -75,7 +75,7 @@
     "title": "Hollow Knight",
     "id": "2306704082",
     "category": "gamejams",
-    "image": "img/albums/hollow_knight.jpg",
+    "image": "img/albums/std_hollow_knight.png",
     "type": "bandcamp",
     "description": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum"
   }

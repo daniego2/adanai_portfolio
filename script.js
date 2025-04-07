@@ -62,6 +62,7 @@ function loadMedia(event, id, type, title, description) {
             playerContainer.style.width = "30%";
         } */
     }
+    playerContainer.style.width = "100%";
 
   // Ocultar el spinner y mostrar el reproductor cuando el contenido esté listo
   iframe.onload = () => {
@@ -69,6 +70,7 @@ function loadMedia(event, id, type, title, description) {
       iframe.style.display = "block";
       playerContainer.style.display = "block";
   };
+
 }
 
 
