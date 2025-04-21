@@ -43,28 +43,16 @@ function loadMedia(event, id, type, title, description) {
   // Mostrar la descripción del álbum
   descriptionContainer.style.display = "block";
   albumTitle.textContent = title;
-  albumDescription.textContent = description;
-
+  albumDescription.innerHTML = description;
   // Cargar el contenido en el iframe según el tipo
     if (type === "bandcamp") {
         iframe.src = `https://bandcamp.com/EmbeddedPlayer/album=${id}/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/`;
-/*         if (window.innerWidth > 1440) { // Ajusta el ancho solo si el ancho de la pantalla es suficiente
-            playerContainer.style.width = "30%";
-        } */
     } else if (type === "youtube") {
         iframe.src = `https://www.youtube.com/embed/${id}`;
-/*         if (window.innerWidth > 1440) { // Ajusta el ancho solo si el ancho de la pantalla es suficiente
-            playerContainer.style.width = "100%";
-        } */
     } else if (type === "spotify") {
         iframe.src = `https://open.spotify.com/embed/album/${id}?utm_source=generator&theme=0`;
-/*         if (window.innerWidth > 1440) { // Ajusta el ancho solo si el ancho de la pantalla es suficiente
-            playerContainer.style.width = "30%";
-        } */
     }
-    //playerContainer.style.width = "100%";
 
-  // Ocultar el spinner y mostrar el reproductor cuando el contenido esté listo
   iframe.onload = () => {
       spinner.style.display = "none";
       iframe.style.display = "block";

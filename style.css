@@ -65,6 +65,13 @@ body {
   padding: 0;
 }
 
+.highlight {
+  font-weight: bold; /* Make the text bold */
+  color: var(--adanai_purple_100); /* Optional: Change text color */
+  padding: 2px 4px; /* Add some padding for better visibility */
+  border-radius: 4px; /* Optional: Add rounded corners */
+}
+
 h2 {
   text-align: center;
 }
@@ -82,24 +89,29 @@ h1 {
 
 /* Barra de Navegación */
 .navbar-menu {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex; /* Cambiar de grid a flex para mayor control */
+  justify-content: space-between;
   align-items: center;
-  justify-items: center; /* Center content horizontally */
-  background-color: white;
-  box-shadow: 0px 0px 10px var(--adanai_blue_10);
-  padding-top: 5px;
-  padding-bottom: 5px;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 0px 0px 10px rgb(247, 247, 247);
+  padding-top: 15px;
+  padding-bottom: 15px;
   position: sticky;
   top: 0;
   z-index: 1000; /* Ensure it stays above other elements */
+  height: 70px;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 150px;
 }
 
 .logo img {
   height: auto; /* Maintain aspect ratio */
   width: 100%; /* Make it responsive */
-  max-width: 200px; /* Adjust maximum size for responsiveness */
-  align-items: center;
 
 }
 
@@ -110,6 +122,8 @@ h1 {
   flex-wrap: wrap; /* Allow wrapping for smaller screens */
   align-items: center;
   margin-bottom: 0;
+  padding-left: 0;
+  margin-right: 15px;
 }
 .nav-social-media img {
   width: 25px; /* Adjust size for smaller screens */
@@ -120,9 +134,10 @@ h1 {
   align-items: center;
   display: flex;
   margin-bottom: 0;
-  gap: 15px;
+  gap: 25px;
   list-style: none;
-  margin-right: 5px;
+  padding: 0;
+  margin-left: 15px;
 }
 
 .navbar-navigation a {
@@ -141,43 +156,67 @@ h1 {
 @media (max-width: 768px) {
 
   .navbar-navigation {
-    justify-content: center;
-    padding-left: 4px;
-    font-size: 14px;
-  }
-}
-  .logo {
-    max-width: 250px;
+    display: none; /* Ocultar la navegación */
   }
 
+  .logo {
+    position: absolute; /* Cambiar de absolute a relative */
+    left: 100px;
+    max-width: 150px;
+  }
+  .nav-social-media {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
   .nav-social-media img {
     width: 20px;
   }
-
+}
 
 @media (max-width: 480px) {
   .navbar-navigation {
     justify-content: center;
     display: block;
-    padding-left: 2px;
     font-size: 8px;
   }
-  .navbar-navigation a{
-    justify-content: center;
+
+  .navbar-navigation a {
     display: none;
     padding-left: 2px;
     font-size: 8px;
   }
-  
+
   .logo img {
     max-width: 150px;
   }
+
+  .nav-social-media {
+    display: flex;
+    flex-wrap: wrap; /* Aquí permitimos el salto de línea */
+    max-width: 100px;  /* Ajusta este valor según el tamaño de los íconos */
+    gap: 5px;         /* Espacio entre íconos */
+    justify-content: center;
+  }
+
   .nav-social-media img {
     width: 14px;
     padding-left: 0;
   }
 }
  
+@media (max-width: 330px) {
+  .nav-social-media {
+    display: none;
+  }
+  .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 150px;
+  }
+}
 
 .nav-social-media img:hover{
     transform: scale(1.3);
