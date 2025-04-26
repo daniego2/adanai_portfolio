@@ -32,6 +32,7 @@
 }
 
 form {
+    font-family: var(--body_font);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,18 +65,18 @@ form textarea {
 }
 
 #message {
-    display: none; /* Oculto por defecto */
+    display: none;
     padding: 15px;
     margin-top: 20px;
     border-radius: 5px;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    overflow: hidden; /* Oculta el contenido desbordado */
-    text-overflow: ellipsis; /* Agrega puntos suspensivos si el texto es demasiado largo */
-    white-space: normal; /* Permite que el texto se envuelva en varias líneas */
-    margin-left: auto; /* Centra horizontalmente */
-    margin-right: auto; /* Centra horizontalmente */
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: normal;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #message-text {

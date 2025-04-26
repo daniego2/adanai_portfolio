@@ -4,9 +4,6 @@
 
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: var(--body_font)
 }
 
 :root {
@@ -66,10 +63,10 @@ body {
 }
 
 .highlight {
-  font-weight: bold; /* Make the text bold */
-  color: var(--adanai_purple_100); /* Optional: Change text color */
-  padding: 2px 4px; /* Add some padding for better visibility */
-  border-radius: 4px; /* Optional: Add rounded corners */
+  font-weight: bold;
+  color: var(--adanai_purple_100);
+  padding: 2px 4px;
+  border-radius: 4px;
 }
 
 h2 {
@@ -89,7 +86,7 @@ h1 {
 
 /* Barra de Navegación */
 .navbar-menu {
-  display: flex; /* Cambiar de grid a flex para mayor control */
+  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(247, 247, 247);
@@ -98,7 +95,7 @@ h1 {
   padding-bottom: 15px;
   position: sticky;
   top: 0;
-  z-index: 1000; /* Ensure it stays above other elements */
+  z-index: 1000;
   height: 70px;
 }
 
@@ -110,8 +107,8 @@ h1 {
 }
 
 .logo img {
-  height: auto; /* Maintain aspect ratio */
-  width: 100%; /* Make it responsive */
+  height: auto;
+  width: 100%;
 
 }
 
@@ -119,14 +116,14 @@ h1 {
   list-style: none;
   display: flex;
   gap: 10px;
-  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 0;
   padding-left: 0;
   margin-right: 15px;
 }
 .nav-social-media img {
-  width: 25px; /* Adjust size for smaller screens */
+  width: 25px;
   align-items: center;
 }
 
@@ -156,11 +153,11 @@ h1 {
 @media (max-width: 768px) {
 
   .navbar-navigation {
-    display: none; /* Ocultar la navegación */
+    display: none;
   }
 
   .logo {
-    position: absolute; /* Cambiar de absolute a relative */
+    position: absolute;
     left: 100px;
     max-width: 150px;
   }
@@ -194,9 +191,9 @@ h1 {
 
   .nav-social-media {
     display: flex;
-    flex-wrap: wrap; /* Aquí permitimos el salto de línea */
-    max-width: 100px;  /* Ajusta este valor según el tamaño de los íconos */
-    gap: 5px;         /* Espacio entre íconos */
+    flex-wrap: wrap;
+    max-width: 100px;
+    gap: 5px;
     justify-content: center;
   }
 
@@ -260,6 +257,17 @@ h1 {
   transform: translate(-50%, -50%);
   z-index: 10;
 }
+
+.site-footer {
+  background-color: rgb(36, 36, 36);
+  padding-right: 20px;
+  text-align: right;
+  font-size: smaller;
+  height: 25px;
+  color: var(--adanai_grey_20);
+  margin-bottom: 0;
+}
+
 
 @keyframes spin {
   0% {

@@ -24,8 +24,8 @@
 
 .about-header {
     display: flex;
-    flex-direction: row; /* Por defecto, el texto y la imagen estarán en fila */
-    flex-wrap: wrap; /* Permite que los elementos se acomoden si no hay espacio */
+    flex-direction: row;
+    flex-wrap: wrap;
     font-size: 20px;
     line-height: 1.8;
     color: #2c2c2c;
@@ -59,13 +59,13 @@
 }
 @media (max-width: 1440px) {
     .about-header {
-        flex-direction: column; /* Apila los elementos en columnas */
-        text-align: center; /* Centra el texto */
+        flex-direction: column;
+        text-align: center;
         padding: 20px;
     }
 
     .about-text, .about-photo {
-        width: 100%; /* Ambos elementos ocuparán el 100% del ancho */
+        width: 100%;
     }
 
 }
