@@ -1,23 +1,34 @@
-
 document.addEventListener("DOMContentLoaded", () => {
   fetch("albums.json")
     .then(response => response.json())
     .then(albums => {
       const categories = {
         "videogames": document.querySelector(".album-videogames .album-list"),
-        "audiovisual": document.querySelector(".album-cinema .album-list"),
-        "gamejams": document.querySelector(".album-gamejams .album-list")
+        "audiovisual": document.querySelector(".album-audiovisual .album-list"),
+        "collabs": document.querySelector(".album-collabs .album-list")
       };
 
       albums.forEach(album => {
         if (categories[album.category]) {
           const albumElement = document.createElement("li");
-          album.title = album.title.replace(/'/g, "\\'"); // Escapar las comillas simples y que no de problemas en el onclick
-          albumElement.innerHTML = `
-            <a href="#" onclick="loadMedia(event, '${album.id}', '${album.type}', '${album.title}', '${album.description}')">
-              <img src="${album.image}" alt="${album.title}" />
-            </a>
-          `;
+          // Crear copias escapadas del título y la descripción
+          const escapedTitle = album.title.replace(/'/g, "\\'");
+          const escapedDescription = album.description.replace(/'/g, "\\'");
+          
+          // Crear el elemento usando createElement y addEventListener en lugar de innerHTML con onclick
+          const link = document.createElement("a");
+          link.href = "#";
+          link.addEventListener("click", function(e) {
+            e.preventDefault();
+            loadMedia(e, album.id, album.type, album.title, album.description);
+          });
+          
+          const img = document.createElement("img");
+          img.src = album.image;
+          img.alt = album.title;
+          
+          link.appendChild(img);
+          albumElement.appendChild(link);
           categories[album.category].appendChild(albumElement);
         }
       });
@@ -64,8 +75,6 @@ function loadMedia(event, id, type, title, description) {
 
 document.addEventListener("DOMContentLoaded", function () {
   const images = document.querySelectorAll(".imagerow img");
-  const prevBtn = document.getElementById("prevBtn");
-  const nextBtn = document.getElementById("nextBtn");
   let currentIndex = 0;
   let isTransitioning = false; // Previene clicks rápidos
 
@@ -94,15 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }, 300); // Tiempo de la animación de salida
   }
 
-  nextBtn.addEventListener("click", function () {
-      let newIndex = (currentIndex + 1) % images.length;
-      updateImage(newIndex);
-  });
 
-  prevBtn.addEventListener("click", function () {
-      let newIndex = (currentIndex - 1 + images.length) % images.length;
-      updateImage(newIndex);
-  });
 
   // Inicializar la vista con la primera imagen visible
   images.forEach((img, index) => {

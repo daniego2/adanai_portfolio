@@ -1,11 +1,19 @@
 [
   {
+    "title": "The Magician VR - Trailer",
+    "id": "imSVti3CezU",
+    "category": "videogames",
+    "image": "img/albums/std_the_magician_vr_1.png",
+    "type": "youtube",
+    "description": "Trailer of the yet unreleased videogame <strong>'The Magician VR: The Cursed Wand'</strong>, under development of <a href='https://mastercrowdgames.com/' target='_blank'>Master Crowd Games</a>"
+  },
+  {
     "title": "TROM",
     "id": "3XSRsv7fRTsiLH1RMfhaZZ",
     "category": "videogames",
     "image": "img/albums/std_trom.png",
     "type": "spotify",
-    "description": "<strong>lorem ipsum dolor sit amet consectetur</strong> adipiscing elit sed do eiusmod <em>tempor</em> incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur <strong>excepteur</strong> sint occaecat cupidatat non <strong>proident sunt culpa qui officia deserunt</strong> mollit anim id est laborum"
+    "description": "Full soundtrack of the videogame <strong>'TROM'</strong>, developed by <a href='https://mastercrowdgames.com/ target='_blank''>Master Crowd Games</a> released on 2023.<br>The soundtrack is inspired by the retro videogames of the 80s and 90s, with a modern twist.<br> You can find the game on <a href='https://www.nintendo.com/es-es/Juegos/Programas-descargables-Nintendo-Switch/TROM-2529618.html target='_blank''>the Nintendo eShop</a>"
   },
   {
     "title": "Frutageddon",
@@ -13,7 +21,7 @@
     "category": "videogames",
     "image": "img/albums/std_frutageddon.png",
     "type": "spotify",
-    "description": "<strong>lorem ipsum dolor sit amet consectetur</strong> adipiscing elit sed do eiusmod <em>tempor</em> incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur <strong>excepteur</strong> sint occaecat cupidatat non <strong>proident sunt culpa qui officia deserunt</strong> mollit anim id est laborum"
+    "description": "Full soundtrack of the videogame <strong>'Frutageddon'</strong>, developed by <a href='https://mastercrowdgames.com/ target='_blank''>Master Crowd Games</a> expected to be released on 2025.<br>The soundtrack is recorded with real wind instruments such as <a href='https://www.instagram.com/jaimeromerolpez/ target='_blank''>Saxophones</a> and <a href='https://www.instagram.com/chema_mc95/ target='_blank''>Trumpets</a> and each track is inspired in a different contintent of the world."
   },
   {
     "title": "Little Fairy Dress Up",
@@ -21,7 +29,8 @@
     "category": "videogames",
     "image": "img/albums/std_little_fairy_dress_up.png",
     "type": "spotify",
-    "description": "<strong>lorem ipsum dolor sit amet consectetur</strong> adipiscing elit sed do eiusmod <em>tempor</em> incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur <strong>excepteur</strong> sint occaecat cupidatat non <strong>proident sunt culpa qui officia deserunt</strong> mollit anim id est laborum"
+    "description":"Fifth videogame of the Dress Up! Saga, developed by <a href='https://mastercrowdgames.com/ target='_blank''>Master Crowd Games</a> released on 2024.<br>You can find the game on <a href='https://www.nintendo.com/es-es/Juegos/Programas-descargables-Nintendo-Switch/Little-Fairy-Dress-Up-2752048.html target='_blank''>the Nintendo eShop</a>"
+
   },
   {
     "title": "Princess Dress Up",
@@ -29,7 +38,7 @@
     "category": "videogames",
     "image": "img/albums/std_princess_dress_up.png",
     "type": "spotify",
-    "description": "<strong>lorem ipsum dolor sit amet consectetur</strong> adipiscing elit sed do eiusmod <em>tempor</em> incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur <strong>excepteur</strong> sint occaecat cupidatat non <strong>proident sunt culpa qui officia deserunt</strong> mollit anim id est laborum"
+    "description": "First videogame of the Dress Up! Saga, developed by <a href='https://mastercrowdgames.com/ target='_blank''>Master Crowd Games</a> released on 2024.<br>You can find the game on <a href='https://www.nintendo.com/es-es/Juegos/Programas-descargables-Nintendo-Switch/Princess-Dress-Up-2587468.html target='_blank''>the Nintendo eShop</a>"
   },
   {
     "title": "Model Style Dress Up",
@@ -37,7 +46,8 @@
     "category": "videogames",
     "image": "img/albums/std_model_style_dress_up.png",
     "type": "spotify",
-    "description": "<strong>lorem ipsum dolor sit amet consectetur</strong> adipiscing elit sed do eiusmod <em>tempor</em> incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur <strong>excepteur</strong> sint occaecat cupidatat non <strong>proident sunt culpa qui officia deserunt</strong> mollit anim id est laborum"
+    "description": "Second videogame of the Dress Up! Saga, developed by <a href='https://mastercrowdgames.com/ target='_blank''>Master Crowd Games</a> released on 2024.<br>You can find the game on <a href='https://www.nintendo.com/es-es/Juegos/Programas-descargables-Nintendo-Switch/Model-Style-Dress-Up--2636187.html target='_blank''>the Nintendo eShop</a>"
+
   },
   {
     "title": "Indian Princess Dress Up",
@@ -45,7 +55,7 @@
     "category": "videogames",
     "image": "img/albums/std_indian_princess_dress_up.png",
     "type": "spotify",
-    "description": "<strong>lorem ipsum dolor sit amet consectetur</strong> adipiscing elit sed do eiusmod <em>tempor</em> incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur <strong>excepteur</strong> sint occaecat cupidatat non <strong>proident sunt culpa qui officia deserunt</strong> mollit anim id est laborum"
+    "description": "Third videogame of the Dress Up! Saga, developed by <a href='https://mastercrowdgames.com/ target='_blank''>Master Crowd Games</a> released on 2024.<br>You can find the game on <a href='https://www.nintendo.com/es-es/Juegos/Programas-descargables-Nintendo-Switch/Indian-Princess-Dress-Up--2676468.html target='_blank''>the Nintendo eShop</a>"
   },
   {
     "title": "Doll Style: Underground Design and Dress",
@@ -53,7 +63,7 @@
     "category": "videogames",
     "image": "img/albums/std_doll_style_underground_design_and_dress.png",
     "type": "spotify",
-    "description": "<strong>lorem ipsum dolor sit amet consectetur</strong> adipiscing elit sed do eiusmod <em>tempor</em> incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur <strong>excepteur</strong> sint occaecat cupidatat non <strong>proident sunt culpa qui officia deserunt</strong> mollit anim id est laborum"
+    "description": "Fourth videogame of the Dress Up! Saga, developed by <a href='https://mastercrowdgames.com/ target='_blank''>Master Crowd Games</a> released on 2024.<br>You can find the game on <a href='https://www.nintendo.com/es-es/Juegos/Programas-descargables-Nintendo-Switch/Doll-Style-Underground-Design-and-Dress-2732413.html target='_blank''>the Nintendo eShop</a>"
   },
   {
     "title": "Ahora, me toca a mi",
@@ -61,23 +71,15 @@
     "category": "audiovisual",
     "image": "img/albums/std_ahora_me_toca_a_mi.png",
     "type": "youtube",
-    "description": "<strong>lorem ipsum dolor sit amet consectetur</strong> adipiscing elit sed do eiusmod <em>tempor</em> incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur <strong>excepteur</strong> sint occaecat cupidatat non <strong>proident sunt culpa qui officia deserunt</strong> mollit anim id est laborum"
+    "description": "No description Provided"
   },
   {
     "title": "Madeon - You're on (feat. Playluist)",
     "id": "8Mfu9QiaIdw",
-    "category": "audiovisual",
+    "category": "collabs",
     "image": "img/albums/std_you_are_on.png",
     "type": "youtube",
-    "description": "<strong>lorem ipsum dolor sit amet consectetur</strong> adipiscing elit sed do eiusmod <em>tempor</em> incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur <strong>excepteur</strong> sint occaecat cupidatat non <strong>proident sunt culpa qui officia deserunt</strong> mollit anim id est laborum"
-  },
-  {
-    "title": "Hollow Knight",
-    "id": "2306704082",
-    "category": "gamejams",
-    "image": "img/albums/std_hollow_knight.png",
-    "type": "bandcamp",
-    "description": "<strong>lorem ipsum dolor sit amet consectetur</strong> adipiscing elit sed do eiusmod <em>tempor</em> incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur <strong>excepteur</strong> sint occaecat cupidatat non <strong>proident sunt culpa qui officia deserunt</strong> mollit anim id est laborum"
+    "description": "Producing, Mixing and Mastering of the song <strong>Madeon - 'You're on'</strong> covered by <a href='https://www.instagram.com/luisetevano/ target='_blank''>Playluist</a>"
   },
   {
     "title": "Romance",
@@ -85,6 +87,30 @@
     "category": "audiovisual",
     "image": "img/albums/std_romance.png",
     "type": "youtube",
-    "description": "<strong>lorem ipsum dolor sit amet consectetur</strong> adipiscing elit sed do eiusmod <em>tempor</em> incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur <strong>excepteur</strong> sint occaecat cupidatat non <strong>proident sunt culpa qui officia deserunt</strong> mollit anim id est laborum"
+    "description": "Shortfilm recorded for <a href='https://www.instagram.com/balate.media/ target='_blank''>Balate Media</a>"
+  },
+  {
+    "title": "Prometí",
+    "id": "3qMMxnRCC7l2JNh1xw2bJb",
+    "category": "collabs",
+    "image": "img/albums/std_prometi.png",
+    "type": "spotify",
+    "description": "Recorded guitars. Arragement and virtual instrumentation"
+  },
+  {
+    "title": "Prometí - ft. Ginés González",
+    "id": "4wGW7z0ZTyGUSuF1j50xCU",
+    "category": "collabs",
+    "image": "img/albums/std_prometi_voz.png",
+    "type": "spotify",
+    "description": "Recorded guitars. Arragement and virtual instrumentation"
+  },
+  {
+    "title": "Light Blue Sky",
+    "id": "0UjLHmDwcz3YAsNisuiYkP",
+    "category": "collabs",
+    "image": "img/albums/std_light_blue_sky.png",
+    "type": "spotify",
+    "description": "Arrangement and orchestration of multiple songs of the album"
   }
 ]
